@@ -22,9 +22,6 @@ graph TD
 
     H --> H1[Technical Setup Guides]
     H --> H2[Code Style and Standards]
-
-    I --> I1[How to Contribute]
-    I --> I2[Issue Reporting Guidelines]
 ```
 
 #### Root Directory
