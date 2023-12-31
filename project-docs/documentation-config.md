@@ -1,5 +1,6 @@
 ## Documentation Repository Structure
 
+```mermaid
 graph TD
     A[Root Directory] -->|Contains| B(README.md)
     A -->|Contains| C(CONTRIBUTING.md)
@@ -37,7 +38,7 @@ graph TD
     H -->|Includes| H2[Code Style and Standards]
     H2 -->|Contains| H2A[Formatting Guidelines]
     H2 -->|Contains| H2B[Best Practices]
-``````
+```
 
 #### Root Directory
 - `README.md`: Overview of the repository and navigation help.
