@@ -2,43 +2,80 @@
 
 ```mermaid
 graph TB
-    A[Root Directory] -->|Contains| B(README.md)
-    A -->|Contains| C(CONTRIBUTING.md)
-    A -->|Contains| E[Project Documentation]
-    A -->|Contains| F[API Documentation]
-    A -->|Contains| G[User Guides]
-    A -->|Contains| H[Developer Guides]
-    A -->|Contains| I[Contribution Guidelines]
+    A[Root Directory]
+    B(README.md)
+    C(CONTRIBUTING.md)
+    E[Project Documentation]
+    F[API Documentation]
+    G[User Guides]
+    H[Developer Guides]
 
-    E -->|Includes| E1[Sports Score Predictor Docs]
-    E1 -->|Contains| E1A[Feature Overview]
-    E1 -->|Contains| E1B[System Architecture]
-    E1 -->|Contains| E1C[Workflow Descriptions]
-    E -->|Includes| E2[Stock Market Simulator Docs]
-    E2 -->|Contains| E2A[Feature Overview]
-    E2 -->|Contains| E2B[System Architecture]
-    E2 -->|Contains| E2C[Workflow Descriptions]
+    E1[Sports Score Predictor Docs]
+    E2[Stock Market Simulator Docs]
+    E1A[Feature Overview - Sports]
+    E1B[System Architecture - Sports]
+    E1C[Workflow Descriptions - Sports]
+    E2A[Feature Overview - Stock]
+    E2B[System Architecture - Stock]
+    E2C[Workflow Descriptions - Stock]
 
-    F -->|Includes| F1[Common API Docs]
-    F1 -->|Contains| F1A[Endpoint Descriptions]
-    F1 -->|Contains| F1B[Usage Examples]
-    F -->|Includes| F2[App-Specific API Docs]
-    F2 -->|Contains| F2A[Sports Predictor API]
-    F2 -->|Contains| F2B[Stock Simulator API]
+    F1[Common API Docs]
+    F2[App-Specific API Docs]
+    F1A[Endpoint Descriptions]
+    F1B[Usage Examples]
+    F2A[Sports Predictor API]
+    F2B[Stock Simulator API]
 
-    G -->|Includes| G1[End-User Manuals]
-    G1 -->|Contains| G1A[Installation Guide]
-    G1 -->|Contains| G1B[Usage Instructions]
-    G -->|Includes| G2[FAQs]
-    G2 -->|Contains| G2A[General Questions]
-    G2 -->|Contains| G2B[Troubleshooting]
+    G1[End-User Manuals]
+    G2[FAQs]
+    G1A[Installation Guide]
+    G1B[Usage Instructions]
+    G2A[General Questions]
+    G2B[Troubleshooting]
 
-    H -->|Includes| H1[Technical Setup Guides]
-    H1 -->|Contains| H1A[Environment Setup]
-    H1 -->|Contains| H1B[Build Instructions]
-    H -->|Includes| H2[Code Style and Standards]
-    H2 -->|Contains| H2A[Formatting Guidelines]
-    H2 -->|Contains| H2B[Best Practices]
+    H1[Technical Setup Guides]
+    H2[Code Style and Standards]
+    H1A[Environment Setup]
+    H1B[Build Instructions]
+    H2A[Formatting Guidelines]
+    H2B[Best Practices]
+
+    A --> B
+    A --> C
+    A --> E
+    A --> F
+    A --> G
+    A --> H
+
+    E --> E1
+    E --> E2
+    E1 --> E1A
+    E1 --> E1B
+    E1 --> E1C
+    E2 --> E2A
+    E2 --> E2B
+    E2 --> E2C
+
+    F --> F1
+    F --> F2
+    F1 --> F1A
+    F1 --> F1B
+    F2 --> F2A
+    F2 --> F2B
+
+    G --> G1
+    G --> G2
+    G1 --> G1A
+    G1 --> G1B
+    G2 --> G2A
+    G2 --> G2B
+
+    H --> H1
+    H --> H2
+    H1 --> H1A
+    H1 --> H1B
+    H2 --> H2A
+    H2 --> H2B
 ```
 
 #### Root Directory
