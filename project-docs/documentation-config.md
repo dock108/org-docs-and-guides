@@ -8,6 +8,7 @@ graph TD
     A -->|Contains| F[API Documentation]
     A -->|Contains| G[User Guides]
     A -->|Contains| H[Developer Guides]
+    A -->|Contains| I[Contribution Guidelines]
 
     E -->|Includes| E1[Sports Score Predictor Docs]
     E1 -->|Contains| E1A[Feature Overview]
