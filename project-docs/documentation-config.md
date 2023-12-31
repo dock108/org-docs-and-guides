@@ -1,26 +1,43 @@
 ## Documentation Repository Structure
 
-```mermaid
 graph TD
-    A[Root Directory] --> B[README.md]
-    A --> C[CONTRIBUTING.md]
-    A --> E[Project Documentation]
-    A --> F[API Documentation]
-    A --> G[User Guides]
-    A --> H[Developer Guides]
+    A[Root Directory] -->|Contains| B(README.md)
+    A -->|Contains| C(CONTRIBUTING.md)
+    A -->|Contains| E[Project Documentation]
+    A -->|Contains| F[API Documentation]
+    A -->|Contains| G[User Guides]
+    A -->|Contains| H[Developer Guides]
 
-    E --> E1[Sports Score Predictor Docs]
-    E --> E2[Stock Market Simulator Docs]
+    E -->|Includes| E1[Sports Score Predictor Docs]
+    E1 -->|Contains| E1A[Feature Overview]
+    E1 -->|Contains| E1B[System Architecture]
+    E1 -->|Contains| E1C[Workflow Descriptions]
+    E -->|Includes| E2[Stock Market Simulator Docs]
+    E2 -->|Contains| E2A[Feature Overview]
+    E2 -->|Contains| E2B[System Architecture]
+    E2 -->|Contains| E2C[Workflow Descriptions]
 
-    F --> F1[Common API Docs]
-    F --> F2[App-Specific API Docs]
+    F -->|Includes| F1[Common API Docs]
+    F1 -->|Contains| F1A[Endpoint Descriptions]
+    F1 -->|Contains| F1B[Usage Examples]
+    F -->|Includes| F2[App-Specific API Docs]
+    F2 -->|Contains| F2A[Sports Predictor API]
+    F2 -->|Contains| F2B[Stock Simulator API]
 
-    G --> G1[End-User Manuals]
-    G --> G2[FAQs]
+    G -->|Includes| G1[End-User Manuals]
+    G1 -->|Contains| G1A[Installation Guide]
+    G1 -->|Contains| G1B[Usage Instructions]
+    G -->|Includes| G2[FAQs]
+    G2 -->|Contains| G2A[General Questions]
+    G2 -->|Contains| G2B[Troubleshooting]
 
-    H --> H1[Technical Setup Guides]
-    H --> H2[Code Style and Standards]
-```
+    H -->|Includes| H1[Technical Setup Guides]
+    H1 -->|Contains| H1A[Environment Setup]
+    H1 -->|Contains| H1B[Build Instructions]
+    H -->|Includes| H2[Code Style and Standards]
+    H2 -->|Contains| H2A[Formatting Guidelines]
+    H2 -->|Contains| H2B[Best Practices]
+``````
 
 #### Root Directory
 - `README.md`: Overview of the repository and navigation help.
