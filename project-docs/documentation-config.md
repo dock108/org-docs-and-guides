@@ -1,7 +1,7 @@
 ## Documentation Repository Structure
 
 ```mermaid
-graph TB
+graph TD
     A[Root Directory]
     B(README.md)
     C(CONTRIBUTING.md)
