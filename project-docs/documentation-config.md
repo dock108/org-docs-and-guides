@@ -4,7 +4,6 @@
 graph TD
     A[Root Directory] --> B[README.md]
     A --> C[CONTRIBUTING.md]
-    A --> D[.gitignore]
     A --> E[Project Documentation]
     A --> F[API Documentation]
     A --> G[User Guides]
