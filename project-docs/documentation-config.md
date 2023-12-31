@@ -1,7 +1,7 @@
 ## Documentation Repository Structure
 
 ```mermaid
-flowchart TD
+flowchart LR
     A[Root Directory]
     B[README.md]
     C[CONTRIBUTING.md]
