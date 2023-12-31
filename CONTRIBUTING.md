@@ -4,7 +4,7 @@ We welcome and appreciate your contributions to the documentation for the Sports
 
 ## How to Contribute
 
-1. **Fork the Repository**: Start by forking the `documentation-guides` repository to your GitHub account.
+1. **Fork the Repository**: Start by forking the 'org-docs-and-guides` repository to your GitHub account.
 
 2. **Create a Branch**: Create a new branch in your forked repository for your changes. It's best to name the branch something descriptive.
 
