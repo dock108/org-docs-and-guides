@@ -1,7 +1,7 @@
 ## Shared Library Repository Structure
 
 ```mermaid
-graph TD
+flowchart LR
     A[Root Directory] --> B[README.md]
     A --> C[CONTRIBUTING.md]
     A --> D[.gitignore]
