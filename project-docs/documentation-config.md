@@ -2,43 +2,73 @@
 
 ```mermaid
 flowchart TD
-    A[Root Directory] --> B(README.md)
-    A --> C(CONTRIBUTING.md)
-    A --> D[Project Documentation]
-    A --> E[API Documentation]
-    A --> F[User Guides]
-    A --> G[Developer Guides]
+    A[Root Directory]
+    B[README.md]
+    C[CONTRIBUTING.md]
+    D[Project Documentation]
+    E[API Documentation]
+    F[User Guides]
+    G[Developer Guides]
+    D1[Sports Score Predictor Docs]
+    D2[Stock Market Simulator Docs]
+    E1[Common API Docs]
+    E2[App-Specific API Docs]
+    F1[End-User Manuals]
+    F2[FAQs]
+    G1[Technical Setup Guides]
+    G2[Code Style and Standards]
+    D1A[Feature Overview - Sports]
+    D1B[System Architecture - Sports]
+    D1C[Workflow Descriptions - Sports]
+    D2A[Feature Overview - Stock]
+    D2B[System Architecture - Stock]
+    D2C[Workflow Descriptions - Stock]
+    E1A[Endpoint Descriptions]
+    E1B[Usage Examples]
+    E2A[Sports Predictor API]
+    E2B[Stock Simulator API]
+    F1A[Installation Guide]
+    F1B[Usage Instructions]
+    F2A[General Questions]
+    F2B[Troubleshooting]
+    G1A[Environment Setup]
+    G1B[Build Instructions]
+    G2A[Formatting Guidelines]
+    G2B[Best Practices]
 
-    D --> D1[Sports Score Predictor Docs]
-    D --> D2[Stock Market Simulator Docs]
-    D1 --> D1A[Feature Overview - Sports]
-    D1 --> D1B[System Architecture - Sports]
-    D1 --> D1C[Workflow Descriptions - Sports]
-    D2 --> D2A[Feature Overview - Stock]
-    D2 --> D2B[System Architecture - Stock]
-    D2 --> D2C[Workflow Descriptions - Stock]
-
-    E --> E1[Common API Docs]
-    E --> E2[App-Specific API Docs]
-    E1 --> E1A[Endpoint Descriptions]
-    E1 --> E1B[Usage Examples]
-    E2 --> E2A[Sports Predictor API]
-    E2 --> E2B[Stock Simulator API]
-
-    F --> F1[End-User Manuals]
-    F --> F2[FAQs]
-    F1 --> F1A[Installation Guide]
-    F1 --> F1B[Usage Instructions]
-    F2 --> F2A[General Questions]
-    F2 --> F2B[Troubleshooting]
-
-    G --> G1[Technical Setup Guides]
-    G --> G2[Code Style and Standards]
-    G1 --> G1A[Environment Setup]
-    G1 --> G1B[Build Instructions]
-    G2 --> G2A[Formatting Guidelines]
-    G2 --> G2B[Best Practices]
-
+    A --> B
+    A --> C
+    A --> D
+    A --> E
+    A --> F
+    A --> G
+    A --> H
+    D --> D1
+    D --> D2
+    E --> E1
+    E --> E2
+    F --> F1
+    F --> F2
+    G --> G1
+    G --> G2
+    D1 --> D1A
+    D1 --> D1B
+    D1 --> D1C
+    D2 --> D2A
+    D2 --> D2B
+    D2 --> D2C
+    E1 --> E1A
+    E1 --> E1B
+    E2 --> E2A
+    E2 --> E2B
+    F1 --> F1A
+    F1 --> F1B
+    F2 --> F2A
+    F2 --> F2B
+    G1 --> G1A
+    G1 --> G1B
+    G2 --> G2A
+    G2 --> G2B
 ```
 
 #### Root Directory
