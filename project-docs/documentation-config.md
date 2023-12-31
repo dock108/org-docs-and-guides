@@ -42,7 +42,6 @@ flowchart LR
     A --> E
     A --> F
     A --> G
-    A --> H
     D --> D1
     D --> D2
     E --> E1
