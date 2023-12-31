@@ -9,7 +9,6 @@ graph TD
     A --> F[API Documentation]
     A --> G[User Guides]
     A --> H[Developer Guides]
-    A --> I[Contribution Guidelines]
 
     E --> E1[Sports Score Predictor Docs]
     E --> E2[Stock Market Simulator Docs]
@@ -48,11 +47,6 @@ graph TD
 - `/Developer Guides`
   - `Technical Setup Guides`: Instructions and guides for setting up development environments.
   - `Code Style and Standards`: Guidelines for code style and best practices.
-
-#### Contribution Guidelines
-- `/Contribution Guidelines`
-  - `How to Contribute`: Detailed guidelines on how to contribute to the projects.
-  - `Issue Reporting Guidelines`: Standards and procedures for reporting issues.
 
 ### Documentation Focus
 - **Comprehensive Coverage**: Ensure all aspects of both apps are thoroughly documented.
