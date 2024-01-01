@@ -2,39 +2,39 @@
 
 ```mermaid
 flowchart LR
-    A[Root Directory] --> B[README.md]
-    A --> C[CONTRIBUTING.md]
-    A --> D[.gitignore]
-    A --> E[Utils Folder]
-    A --> F[Authentication Folder]
-    A --> G[Testing Folder]
-    A --> H[Documentation Folder]
+    A[Root Directory] -->|Contains| B[README.md]
+    A -->|Contains| C[CONTRIBUTING.md]
+    A -->|Contains| D[.gitignore]
+    A -->|Contains| E[Utils Folder]
+    A -->|Contains| F[Authentication Folder]
+    A -->|Contains| G[Testing Folder]
+    A -->|Contains| H[Documentation Folder]
 
-    E --> E1[/api]
-    E1 --> E1A[apiHandler.js]
-    E1 --> E1B[jsonParser.js]
+    E -->|Includes| E1[/api]
+    E1 -->|Contains| E1A[apiHandler.js]
+    E1 -->|Contains| E1B[jsonParser.js]
 
-    E --> E2[/mongodb]
-    E2 --> E2A[dbConnect.js]
-    E2 --> E2B[dataModel.js]
+    E -->|Includes| E2[/mongodb]
+    E2 -->|Contains| E2A[dbConnect.js]
+    E2 -->|Contains| E2B[dataModel.js]
 
-    E --> E3[/ml]
-    E3 --> E3A[predictionModel.py]
+    E -->|Includes| E3[/ml]
+    E3 -->|Contains| E3A[predictionModel.py]
 
-    E --> E4[/visualization]
-    E4 --> E4A[chartGenerator.js]
+    E -->|Includes| E4[/visualization]
+    E4 -->|Contains| E4A[chartGenerator.js]
 
-    F --> F1[authService.js]
-    F --> F2[userModel.js]
-    F --> F3[adminModel.js]
+    F -->|Includes| F1[authService.js]
+    F -->|Contains| F2[userModel.js]
+    F -->|Contains| F3[adminModel.js]
 
-    G --> G1[apiTests.js]
-    G --> G2[dbTests.js]
-    G --> G3[authTests.js]
+    G -->|Includes| G1[apiTests.js]
+    G -->|Contains| G2[dbTests.js]
+    G -->|Contains| G3[authTests.js]
 
-    H --> H1[Technical_Documentation.md]
-    H --> H2[User_Guide.md]
-    H --> H3[Integration_Examples.md]
+    H -->|Includes| H1[Technical_Documentation.md]
+    H -->|Contains| H2[User_Guide.md]
+    H -->|Contains| H3[Integration_Examples.md]
 ```
 
 ## Root Directory

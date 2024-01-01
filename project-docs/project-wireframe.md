@@ -2,13 +2,28 @@
 
 ## Wireframe Mermaid Graph
 ```mermaid
-    graph LR
-    A[Home Screen] --> B[Game List]
-    B --> C{Select Game}
-    C -->|Predict Score| D[Score Prediction Screen]
-    D --> E[Prediction Summary Screen]
-    E --> F[Analytics Screen]
-    E --> G[Settings/Profile Screen]
+flowchart TD
+    A[Home/Dashboard Screen] -->|Displays| A1[User's Virtual Portfolio Summary]
+    A -->|Shows| A2[Current Value, Gains/Losses]
+    A -->|Shows| A3[Basic Analytics]
+
+    B[Stock Search and Selection Screen] -->|Features| B1[Search Bar for S&P 500 Stocks]
+    B -->|Displays| B2[Stock Details]
+    B -->|Displays| B3[Historical Performance]
+
+    C[Trade Execution Screen] -->|Provides| C1[Buy/Sell Options]
+    C -->|Includes| C2[Input Fields for Quantity]
+    C -->|Includes| C3[Order Type Selection (Market, Limit, etc.)]
+
+    D[Portfolio Management Screen] -->|Shows| D1[Detailed View of Stock Holdings]
+    D -->|Includes| D2[Performance Charts]
+    D -->|Includes| D3[Transaction History]
+
+    E[Projection and Learning Screen] -->|Features| E1[Interactive Tools for Price Projection]
+    E -->|Includes| E2[Educational Content and Tips]
+    E -->|Includes| E3[Guides for Beginners]
+
+    F[Settings/Profile Screen] -->|Similar to| F1[Sports Score Predictor App for Consistency]
 ```
 
 ## Home Screen:
@@ -34,6 +49,31 @@
 - Options to modify user preferences or settings.
 
 # Stock Market Simulator App Wireframes
+## Wireframe
+```mermaid
+    flowchart TD
+    A[Home/Dashboard Screen] -->|Displays| A1[User's Virtual Portfolio Summary]
+    A -->|Shows| A2[Current Value, Gains/Losses]
+    A -->|Shows| A3[Basic Analytics]
+
+    B[Stock Search and Selection Screen] -->|Features| B1[Search Bar for S&P 500 Stocks]
+    B -->|Displays| B2[Stock Details]
+    B -->|Displays| B3[Historical Performance]
+
+    C[Trade Execution Screen] -->|Provides| C1[Buy/Sell Options]
+    C -->|Includes| C2[Input Fields for Quantity]
+    C -->|Includes| C3[Order Type Selection (Market, Limit, etc.)]
+
+    D[Portfolio Management Screen] -->|Shows| D1[Detailed View of Stock Holdings]
+    D -->|Includes| D2[Performance Charts]
+    D -->|Includes| D3[Transaction History]
+
+    E[Projection and Learning Screen] -->|Features| E1[Interactive Tools for Price Projection]
+    E -->|Includes| E2[Educational Content and Tips]
+    E -->|Includes| E3[Guides for Beginners]
+
+    F[Settings/Profile Screen] -->|Similar to| F1[Sports Score Predictor App for Consistency]
+```
 
 ## Home/Dashboard Screen:
 - Displays a summary of the user's virtual portfolio.
