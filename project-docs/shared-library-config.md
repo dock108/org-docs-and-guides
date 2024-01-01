@@ -10,18 +10,18 @@ flowchart LR
     A -->|Contains| G[Testing Folder]
     A -->|Contains| H[Documentation Folder]
 
-    E -->|Includes| E1[/api]
+    E -->|Includes| E1[api]
     E1 -->|Contains| E1A[apiHandler.js]
     E1 -->|Contains| E1B[jsonParser.js]
 
-    E -->|Includes| E2[/mongodb]
+    E -->|Includes| E2[mongodb]
     E2 -->|Contains| E2A[dbConnect.js]
     E2 -->|Contains| E2B[dataModel.js]
 
-    E -->|Includes| E3[/ml]
+    E -->|Includes| E3[ml]
     E3 -->|Contains| E3A[predictionModel.py]
 
-    E -->|Includes| E4[/visualization]
+    E -->|Includes| E4[visualization]
     E4 -->|Contains| E4A[chartGenerator.js]
 
     F -->|Includes| F1[authService.js]
