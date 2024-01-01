@@ -51,32 +51,30 @@ flowchart TD
 ## Wireframe
 ```mermaid
 flowchart LR
-    A[Home/Dashboard Screen] -->|Displays| A1[User's Virtual Portfolio Summary]
-    A -->|Shows| A2[Current Value, Gains/Losses]
-    A -->|Shows| A3[Basic Analytics]
+    A[Home Screen] -->|Displays| A1[Portfolio Summary]
+    A -->|Navigates to| B[Stock Search Screen]
+    A -->|Navigates to| C[Trade Execution Screen]
+    A -->|Navigates to| D[Portfolio Management Screen]
+    A -->|Navigates to| E[Projection Screen]
+    A -->|Navigates to| F[Settings/Profile Screen]
 
-    B[Stock Search and Selection Screen] -->|Features| B1[Search Bar for S&P 500 Stocks]
+    B[Stock Search Screen] -->|Features| B1[Search Bar]
     B -->|Displays| B2[Stock Details]
     B -->|Displays| B3[Historical Performance]
-    B --> A
 
     C[Trade Execution Screen] -->|Provides| C1[Buy/Sell Options]
-    C -->|Includes| C2[Input Fields for Quantity]
-    C -->|Includes| C3[Order Type Selection &#40;Market, Limit, etc.&#41;]
-    C --> A
+    C -->|Includes| C2[Quantity Input]
+    C -->|Includes| C3[Order Type Selection]
 
-    D[Portfolio Management Screen] -->|Shows| D1[Detailed View of Stock Holdings]
+    D[Portfolio Management Screen] -->|Shows| D1[Stock Holdings]
     D -->|Includes| D2[Performance Charts]
     D -->|Includes| D3[Transaction History]
-    D --> A
 
-    E[Projection and Learning Screen] -->|Features| E1[Interactive Tools for Price Projection]
-    E -->|Includes| E2[Educational Content and Tips]
+    E[Projection Screen] -->|Features| E1[Price Projection Tools]
+    E -->|Includes| E2[Educational Content]
     E -->|Includes| E3[Guides for Beginners]
-    E --> A
 
-    F[Settings/Profile Screen] -->|Similar to| F1[Sports Score Predictor App for Consistency]
-    F --> A
+    F[Settings/Profile Screen] -->|Similar to| F1[Profile Settings]
 ```
 
 ## Home/Dashboard Screen:
