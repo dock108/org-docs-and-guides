@@ -2,7 +2,7 @@
 
 ## Wireframe Mermaid Graph
 ```mermaid
-flowchart TD
+flowchart LR
     A[Home/Dashboard Screen] -->|Displays| A1[User's Virtual Portfolio Summary]
     A -->|Shows| A2[Current Value, Gains/Losses]
     A -->|Shows| A3[Basic Analytics]
@@ -51,7 +51,7 @@ flowchart TD
 # Stock Market Simulator App Wireframes
 ## Wireframe
 ```mermaid
-    flowchart TD
+    flowchart LR
     A[Home/Dashboard Screen] -->|Displays| A1[User's Virtual Portfolio Summary]
     A -->|Shows| A2[Current Value, Gains/Losses]
     A -->|Shows| A3[Basic Analytics]
