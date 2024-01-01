@@ -3,17 +3,17 @@
 ## Wireframe Mermaid Graph
 ```mermaid
 flowchart LR
-    A[Home/Dashboard Screen] -->|Displays| A1[User's Virtual Portfolio Summary]
-    A -->|Shows| A2[Current Value, Gains/Losses]
+    A[Home\/Dashboard Screen] -->|Displays| A1[User's Virtual Portfolio Summary]
+    A -->|Shows| A2[Current Value, Gains\/Losses]
     A -->|Shows| A3[Basic Analytics]
 
     B[Stock Search and Selection Screen] -->|Features| B1[Search Bar for S&P 500 Stocks]
     B -->|Displays| B2[Stock Details]
     B -->|Displays| B3[Historical Performance]
 
-    C[Trade Execution Screen] -->|Provides| C1[Buy/Sell Options]
+    C[Trade Execution Screen] -->|Provides| C1[Buy\/Sell Options]
     C -->|Includes| C2[Input Fields for Quantity]
-    C -->|Includes| C3[Order Type Selection (Market, Limit, etc.)]
+    C -->|Includes| C3[Order Type Selection \(Market, Limit, etc.\)]
 
     D[Portfolio Management Screen] -->|Shows| D1[Detailed View of Stock Holdings]
     D -->|Includes| D2[Performance Charts]
@@ -23,7 +23,7 @@ flowchart LR
     E -->|Includes| E2[Educational Content and Tips]
     E -->|Includes| E3[Guides for Beginners]
 
-    F[Settings/Profile Screen] -->|Similar to| F1[Sports Score Predictor App for Consistency]
+    F[Settings\/Profile Screen] -->|Similar to| F1[Sports Score Predictor App for Consistency]
 ```
 
 ## Home Screen:
@@ -51,7 +51,7 @@ flowchart LR
 # Stock Market Simulator App Wireframes
 ## Wireframe
 ```mermaid
-    flowchart LR
+flowchart LR
     A[Home/Dashboard Screen] -->|Displays| A1[User's Virtual Portfolio Summary]
     A -->|Shows| A2[Current Value, Gains/Losses]
     A -->|Shows| A3[Basic Analytics]
